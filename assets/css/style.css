@@ -31,24 +31,34 @@
   src: url(../font/Uniform_Bold.ttf);
 }
 
+/* @font-face {
+  font-family: Uniform Bld;
+  src: url(../font/UNIFORM_BOLD_2.TTF);
+} */
+
 @font-face {
   font-family: Uniform Light;
   src: url(../font/UNIFORM-CONDENSED-LIGHT.OTF);
 }
 
-@font-face {
-  font-family: Uniform Cdn Mdm;
+/* @font-face {
+  font-family: Uniform Mdm;
   src: url(../font/UNIFORM-CONDENSED-MEDIUM.OTF);
-}
+} */
 
-@font-face {
+/* @font-face {
   font-family: Uniform Cdn;
   src: url(../font/Uniform_Condensed.ttf);
-}
+} */
+
+/* @font-face {
+  font-family: Uniform Mdm;
+  src: url(../font/Uniform_Medium.ttf);
+} */
 
 @font-face {
   font-family: Uniform Mdm;
-  src: url(../font/Uniform_Medium.ttf);
+  src: url(../font/UNIFORM-CONDENSED-MEDIUM.OTF);
 }
 
 body {
@@ -72,8 +82,8 @@ a:focus {
 p {
   padding: 0;
   margin: 0 0 10px 0;
-  font-size: 20px;
-  font-weight: 700;
+  font-size: 18px;
+  /* font-weight: 700; */
   font-family: "Uniform Light";
 }
 
@@ -225,7 +235,7 @@ h6 {
 .img-fluid {
   margin-top: 6rem;
   width: 100%;
-  height: 540px;
+  height: 600px;
 }
 
 #hero-profile {
@@ -589,7 +599,7 @@ h6 {
   text-decoration: none;
   display: inline-block;
   color: #1e1e1e;
-  font-family: "Uniform Mdm";
+  font-family: "Uniform";
   /* font-weight: 500; */
   /* text-transform: uppercase; */
   font-size: 16px;
@@ -788,7 +798,7 @@ section {
   text-align: center;
   font-weight: 700;
   margin-bottom: 5px;
-  font-family: "Uniform Mdm";
+  font-family: "Uniform";
 }
 
 .us-title {
@@ -806,9 +816,8 @@ section {
   color: #1e1e1e;
   /* text-transform: uppercase; */
   text-align: center;
-  font-weight: 700;
   margin-bottom: 5px;
-  font-family: "Uniform Mdm";
+  font-family: "Uniform Bld";
 }
 
 .divisi-title {
@@ -816,9 +825,9 @@ section {
   color: #1e1e1e;
   /* text-transform: uppercase; */
   /* text-align: center; */
-  font-weight: 700;
+  /* font-weight: 700; */
   /* margin-bottom: 5px; */
-  font-family: "Uniform Mdm";
+  font-family: "Uniform Bld";
 }
 
 .section-header .section-description {
@@ -884,6 +893,11 @@ section {
 }
 
 /* Divisi Section */
+.img-divisi {
+  max-width: 100%;
+  max-height: 100%;
+}
+
 .rectangle-divisi {
   background: #ff6c5c;
   border-radius: 18px;
@@ -895,7 +909,7 @@ section {
   font-size: 16px;
   /* font-weight: 700; */
   color: #fff;
-  font-family: "Uniform Mdm";
+  font-family: "Uniform";
 }
 
 .border-divisi {
@@ -968,7 +982,7 @@ hr.divisi {
 
 #about p {
   font-family: "Uniform Light";
-  font-size: 20px;
+  font-size: 18px;
   color: #1e1e1e;
 }
 
@@ -1066,7 +1080,6 @@ hr.divisi {
   letter-spacing: 1px;
   color: #fff;
   font-family: "Uniform Mdm";
-  font-weight: 700;
 }
 
 .footer-rectangle {
@@ -1084,18 +1097,16 @@ hr.divisi {
 }
 
 .footer-rectangle-galeri {
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 8px;
+  /* padding-bottom: 10px; */
   padding-left: 30px;
   padding-right: 30px;
-  font-size: 20px;
+  font-size: 18px;
   background: #ff6c5c;
   margin: auto;
   width: 100%;
-  height: 7rem;
-  /* line-height: 1.2; */
+  height: 6rem;
   text-align: center;
-  /* font-size: 25px; */
   color: #fff;
   font-family: "Uniform Light";
 }
@@ -1107,9 +1118,7 @@ hr.divisi {
   background: #046671;
   margin: auto;
   width: 100%;
-  /* height: 70px; */
   text-align: center;
-  /* font-size: 25px; */
   color: #fff;
   font-family: "Uniform Mdm";
 }
@@ -1126,9 +1135,9 @@ hr.divisi {
 #facts .counters p {
   color: #1e1e1e;
   padding: 0;
-  margin: 0 0 20px 0;
+  margin: 20px 20px 20px 0;
   font-family: "Uniform Light";
-  font-size: 20px;
+  font-size: 18px;
 }
 
 hr.us {
@@ -1223,7 +1232,7 @@ hr.line {
   padding-left: 4rem;
   padding-right: 4rem;
   /* margin: 0 0 20px 0; */
-  font-family: "Uniform Cdn";
+  font-family: "Uniform Mdm";
   font-size: 18px;
 }
 
@@ -1244,10 +1253,10 @@ hr.line {
 #who .counters p {
   color: #ffffff;
   padding-top: 2rem;
-  padding-left: 2rem;
-  padding-right: 2rem;
+  padding-left: 2.9rem;
+  padding-right: 2.9rem;
   margin: 0 0 20px 0;
-  font-family: "Uniform Cdn";
+  font-family: "Uniform Mdm";
   /* font-weight: 700; */
   letter-spacing: 2px;
   font-size: 18px;
@@ -1259,13 +1268,13 @@ hr.line {
   border-radius: 18px;
   margin: auto;
   padding: 10px;
-  width: 300px;
+  width: 250px;
   line-height: 30px;
   text-align: center;
   font-size: 30px;
   font-weight: 700;
   color: #fff;
-  font-family: "Uniform Mdm";
+  font-family: "Uniform";
 }
 
 /* End Profile Section */
@@ -1413,6 +1422,12 @@ hr.artikel {
   /* height: 300px; */
 }
 
+.text-contact {
+  font-size: 20px;
+  color: #046671;
+  font-family: "Uniform Bld";
+}
+
 /* End Contact Section */
 
 /* Galeri */
@@ -1437,7 +1452,7 @@ hr.artikel {
   width: 250px;
   /* line-height: 30px; */
   text-align: center;
-  font-size: 16px;
+  font-size: 18px;
   color: #fff;
   font-family: "Uniform Mdm";
 }
@@ -1447,16 +1462,22 @@ hr.artikel {
 /* Footer  */
 .site-footer h5 {
   color: #ffffff;
-  font-size: 32px;
+  font-size: 28px;
   font-family: "Kenyan Coffe";
 }
 
 .site-footer h6 {
   color: #ffffff;
-  font-size: 24px;
+  font-size: 20px;
   letter-spacing: 4px;
   text-transform: uppercase;
-  font-family: "Uniform Cdn Mdm";
+  font-family: "Uniform Mdm";
+}
+
+.text-footer {
+  color: #ffffff;
+  font-size: 18px;
+  font-family: "Uniform Light";
 }
 
 .text-address {
@@ -1464,7 +1485,7 @@ hr.artikel {
   font-size: 20px;
   letter-spacing: 4px;
   text-transform: uppercase;
-  font-family: "Uniform Cdn Mdm";
+  font-family: "Uniform Mdm";
 }
 
 .footer-last {
