@@ -235,14 +235,31 @@ h6 {
 .img-fluid {
   margin-top: 6rem;
   width: 100%;
-  height: 600px;
+  height: 520px;
+}
+
+.img-absolute {
+  position: absolute;
+  /* top: 80px; */
+  right: 0;
+  width: 700px;
+  /* height: 400px; */
+}
+
+.img-absolute-left {
+  position: absolute;
+  /* top: 80px; */
+  /* right: 0; */
+  left: 0;
+  width: 700px;
+  /* height: 400px; */
 }
 
 #hero-profile {
   width: 100%;
-  height: 80vh;
-  padding-bottom: 80vh;
-  background-image: url(/assets/img/hero-profile.jpg);
+  height: 600px;
+  /* padding-bottom: 80vh; */
+  background-image: url(/assets/img/konten-header/Header-Profil-Tanpa-Teks.png);
   background-size: 100%;
   background-repeat: no-repeat;
   position: relative;
@@ -408,11 +425,31 @@ h6 {
 
 #hero-profile h1 {
   /* padding-left: 10px; */
-  margin: 30px 0 10 0;
+  margin: 30px 0 10px 0;
   font-size: 60px;
   /* font-weight: 700; */
   /* line-height: 56px; */
   font-family: "Kenyan Coffe";
+  /* text-transform: uppercase; */
+  color: #fff;
+}
+
+.hero-text h1 {
+  margin: 30px 0 10px 0;
+  font-size: 52px;
+  /* font-weight: 700; */
+  /* line-height: 56px; */
+  font-family: "Kenyan Coffe";
+  /* text-transform: uppercase; */
+  color: #fff;
+}
+
+.hero-text p {
+  margin: 0 0 0 0;
+  font-size: 20px;
+  /* font-weight: 700; */
+  /* line-height: 56px; */
+  font-family: "Uniform Light";
   /* text-transform: uppercase; */
   color: #fff;
 }
@@ -1215,7 +1252,7 @@ hr.line {
   background-repeat: repeat-x;
   /* background-size: 100px auto; */
   background-repeat: no-repeat;
-  background-size: 400px 50px;
+  background-size: 400px 75px;
   background-position: center;
   padding: 0 0 0 0;
   /* height: 300px; */
