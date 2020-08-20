@@ -221,7 +221,7 @@ h6 {
 
 #img-home {
   margin-top: 1.5rem;
-  background-image: url(../img/konten-header/Header-Home.png);
+  background-image: url(../img/konten-header/compressed/Header-Home.jpg);
   /* width: 100%; */
   background-position: center;
   background-size: cover;
@@ -237,7 +237,7 @@ h6 {
   /* margin: 0; */
   /* max-width: 100%; */
 
-  background-image: url(/assets/img/konten-header/Header-Home.png);
+  background-image: url(/assets/img/konten-header/compressed/Header-Home.png);
   background-repeat: no-repeat;
   background-size: cover;
   height: 80vh;
@@ -909,6 +909,15 @@ section {
 
 .us-title-galeri {
   font-size: 32px;
+  color: #ffffff;
+  /* text-transform: uppercase; */
+  text-align: center;
+  margin-bottom: 5px;
+  font-family: "Uniform Bld";
+}
+
+.us-title-galeri-black {
+  font-size: 32px;
   color: #1e1e1e;
   /* text-transform: uppercase; */
   text-align: center;
@@ -1216,7 +1225,7 @@ hr.divisi {
   padding-top: 10px;
   padding-bottom: 10px;
   font-size: 20px;
-  background: #046671;
+  background: #ff6c5c;
   margin: auto;
   width: 100%;
   text-align: center;
@@ -1224,8 +1233,24 @@ hr.divisi {
   font-family: "Uniform Mdm";
 }
 
+.card {
+  border-radius: 0;
+}
+
+.card-img-top {
+  border-radius: 0;
+}
+
 .border-card {
   border: solid black 7px;
+}
+
+.border-card-white {
+  border: solid white 6px;
+}
+
+.border-card-green {
+  border: solid #046671 6px;
 }
 
 #facts {
@@ -1538,10 +1563,24 @@ hr.artikel {
   background: url(../img/icon/bg-galeri.png);
   /* background-color: #046671; */
   background-repeat: repeat-x;
-  background-size: 7% auto;
+  background-size: 8% auto;
   background-position: center;
   padding: 60px 0 60px 0;
   /* height: 300px; */
+}
+
+@media screen and (max-width: 1366px) {
+  #galeri {
+    /* margin-top: 80px; */
+    /* margin-bottom: 60px; */
+    background: url(../img/icon/bg-galeri.png);
+    /* background-color: #046671; */
+    background-repeat: repeat-x;
+    background-size: 10% auto;
+    background-position: center;
+    padding: 60px 0 60px 0;
+    /* height: 300px; */
+  }
 }
 
 .rectangle-galeri {
